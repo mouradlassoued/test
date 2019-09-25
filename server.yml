@@ -1,0 +1,1920 @@
+oups.config:
+  incivility_type:
+
+    talkphone: 'Au téléphone'
+
+    talkface: 'Verbale en face à face'
+
+    attemptedassault: 'Tentative d&#039;agression/menace physique'
+
+    assault: 'Agression physique'
+
+    sequestration: 'Séquestration'
+
+    rrmedthreat: 'Menace armée'
+
+    rrmedwritten: 'Menace écrite'
+
+  incivility_context:
+
+    intervention: 'Intervention/chantier'
+
+    serviceinsite: 'En service sur mon site'
+
+    serviceoutsite: 'En service en dehors de mon site'
+
+    pathhomework: 'Trajet domicile-lieu de travail'
+
+    callclient: 'Appel client'
+
+  incivility_lieu:
+
+    local: 'Dans nos locaux sur Site Enedis'
+
+    public: 'Sur la voie publique'
+
+    workiste: 'Sur un chantier'
+
+    customer: 'Chez un client'
+
+    other: 'Autres'
+
+  incivility_victim:
+
+    techniciancustomer: 'Domaine opération'
+
+    customersupport: 'Domaine relation client'
+
+    other: 'Etat major et fonctions supports'
+
+    domaineingenerie: 'Domaine ingénierie et raccordement'
+
+    domaineinfra: 'Domaine patrimoine/infrastructure'
+
+    domaineinterventien: 'Domaine intervention'
+
+    domaineterritorialite: 'Domaine territorialité'
+
+  incivility_consequence:
+
+    psychologicalharm: 'Atteinte psychologique'
+
+    physicalharm: 'Atteinte physique'
+
+    materialdamages: 'Dégâts matériels'
+
+    otherconsequences: 'Autre'
+
+  incivility_perpetrator:
+
+    customerhome: 'Client particulier'
+
+    customerpro: 'Client professionnel'
+
+    recipient: 'Prestataire'
+
+    provider: 'Fournisseur d&#039;energie'
+
+    third: 'Tiers'
+
+    other: 'Autres'
+
+  incivility_factor:
+
+    conflictwithcustomer: 'Conflit client / fournisseur'
+
+    ignorancedistribmissions: 'Méconnaissance missions du distributeur'
+
+    notfeasibleaction: 'Intervention non réalisable'
+
+    cutofforlimitation: 'Coupure (DPI ou FMA) ou limitation de puissance'
+
+    reinstatementorfirstcommissioning: 'Rétablissement / Première mise en service / Délais …'
+
+    crime: 'Vol, banditisme'
+
+    noapparentrationalfactors: 'Absence facteur rationnel apparent'
+
+    traffic: 'Circulation routière'
+
+    other: 'Autres'
+
+  incivility_activity:
+
+    dpi: 'DPI (Déplacement Pour Impayé)'
+
+    pnt: 'PNT (Perte Non Technique)'
+
+    rif: 'RIF (Résiliation à l&#039;Initiative du Fournisseur)'
+
+    interventioncustomerother: 'Autre intervention chez le client'
+
+    fixing: 'Dépannage'
+
+    scheduledinterventionnetwork: 'Intervention réseau programmée'
+
+    outstanding: 'Circulation en service'
+
+    callin: 'Appel téléphonique'
+
+    copure: 'Coupure pour travaux'
+
+    pose: 'Pose d&#039;un compteur '
+
+    other: 'Autre'
+
+  incivility_following:
+
+    activityplanning: 'Organisation de l&#039;activité'
+
+    toolsvehicles: 'Outils, matériels, véhicules'
+
+    processes: 'Procédures, consignes'
+
+    information: 'Information'
+
+    forming: 'Formation'
+
+    otherfollowingnature: 'Autres'
+
+  incivility_action:
+
+    noaction: 'Aucune action'
+
+    companyletter: 'Courrier de l&#039;entreprise'
+
+    supervisorcall: 'Appel de l&#039;encadrant'
+
+    complaint: 'Main courante'
+
+    complaintvictim: 'Dépôt de plainte par la victime'
+
+    complaintcompany: 'Dépôt de plainte par l&#039;entreprise'
+
+    legalsupport: 'Soutien juridique du salarié'
+
+    otheractions: 'Autre'
+
+  vps_locale_ouvertures:
+
+    Theme: 'OUVERTURES'
+
+    0: 'Armoire de classement'
+
+    1: 'Fenêtres'
+
+    2: 'Portes'
+
+    3: 'Tiroirs (bureau, établis, ...)'
+
+  vps_locale_dispositions:
+
+    Theme: 'DISPOSITIONS'
+
+    0: 'Bureaux, mobiliers annexes'
+
+    1: 'Matériels téléphoniques (téléphones, fax, ...)'
+
+    2: 'Matériels de bureau'
+
+    3: 'Matériel informatique'
+
+    4: 'Rangement armoires'
+
+  vps_locale_risques_electriques:
+
+    Theme: 'RISQUES ELECTRIQUES'
+
+    0: 'Position et état des prises'
+
+    1: 'Etat du matériel électrique'
+
+    2: 'Etat des fils de liaison électrique'
+
+    3: 'Protection des fils électriques'
+
+  vps_locale_risque_chute:
+
+    Theme: 'RISQUE DE CHUTE'
+
+    0: 'Objets en équilibre'
+
+    1: 'Câbles au sol'
+
+    2: 'Encombrement de l’espace de travail'
+
+    3: 'Dégagement des aires de  circulation'
+
+  vps_locale_archives_depot:
+
+    Theme: 'ARCHIVES/DEPOT'
+
+    0: 'Accès'
+
+    1: 'Rangement'
+
+  vps_locale_incendie:
+
+    Theme: 'INCENDIE'
+
+    0: 'Accès extincteurs'
+
+    1: 'Consignes incendie (mise à jour)'
+
+    2: 'Sortie de secours (bloc lumineux de sécurité)'
+
+  vps_locale_aire_de_stationnement:
+
+    Theme: 'AIRE DE STATIONNEMENT'
+
+    0: 'Encombrement de l’aire de stationnement'
+
+  vps_locale_environnement_travail:
+
+    Theme: 'ENVIRONNEMENT DE TRAVAIL'
+
+    0: 'Etat fonctionnel des locaux'
+
+    1: 'Lumière, ventilation'
+
+  vps_locale_environnement_travail_second:
+
+    Theme: 'ENVIRONNEMENT DE TRAVAIL'
+
+    0: 'Propreté, rangement'
+
+  vps_locale_conditions_travail:
+
+    Theme: 'CONDITIONS DE TRAVAIL'
+
+    0: 'Ergonomie'
+
+  vps_locale_environnement_travail_third:
+
+    Theme: 'ENVIRONNEMENT DE TRAVAIL'
+
+    0: 'Eclairage'
+
+    1: 'Bruit'
+
+    2: 'Température'
+
+    3: 'Etat des sols'
+
+    4: 'Propreté, rangement'
+
+    5: 'Etat fonctionnel des locaux'
+
+  vps_locale_aire_stationnement:
+
+    Theme: 'AIRE STATIONNEMENT'
+
+    0: 'Stationnement des véhicules'
+
+  vps_locale_autres:
+
+    Theme: 'AUTRES'
+
+    0: 'Condition de travail, Dégagement et qualité des ouvertures'
+
+  vps_chantier_orga_travail_prepa_prise:
+
+    Theme: 'ORGANISATION DU TRAVAIL : PREPARATION / PRISE DE TRAVAIL'
+
+    0: 'Analyse de la tournée avant départ'
+
+    1: 'Réalisation du brief'
+
+    2: 'Ordre de travail'
+
+    3: 'Etude préalable'
+
+    4: 'Habilitations minimales'
+
+    5: 'Fiche de manœuvre'
+
+    6: 'Prise en compte des risques sur le bon de travail'
+
+    7: 'Validation de l&#039;ordre du travail'
+
+    8: 'Plan global de prévention'
+
+    9: 'Interpellation de collègues ou de tiers pour leur sécurité'
+
+    10: 'Repérage des phases qui nécessitent une vigilance accrue'
+
+    11: 'Port de vêtement image de marque et chaussure de sécurité à la prise de travail'
+
+  vps_chantier_travail_sur_chantier:
+
+    Theme: 'ORGANISATION DU TRAVAIL : SUR LE CHANTIER'
+
+    0: 'Connaissance et application du référentiel nécessaire au chantier (IPS…)'
+
+    1: 'Délimitation de la zone de travail identification'
+
+    2: 'Conduite du chantier'
+
+    3: 'Rôle du chargé/chef de travaux'
+
+    4: 'Respect de la fiche de manœuvre'
+
+    5: 'Connaissance matériel, engins et outils'
+
+    6: 'Retour formalisé du chantier par CDT'
+
+    7: 'Habilitation conforme'
+
+    8: 'Port des vêtements image de marque'
+
+    9: 'Prise en compte des distances minimales d’approches (DMA)'
+
+  vps_chantier_elect_travaux_sous_tension:
+
+    Theme: 'ELECTRICITE : TRAVAUX SOUS TENSION'
+
+    0: 'Habilitation conforme'
+
+    1: 'Connaissance des ITST nécessaires au chantier'
+
+    2: 'Respect des CET'
+
+    3: 'Gestion du risque d’électrisation (CET 5.2.3)'
+
+    4: 'Gestion du risque court-circuit (CET5.2.4)'
+
+    5: 'Port correct du casque : écran facial entièrement baissé + jugulaire'
+
+    6: 'Port de vêtement image de marque'
+
+    7: 'Document d&#039;accès au réseau'
+
+    8: 'Vérification des outils TST (Cf. CET/BT 4.7)'
+
+  vps_chantier_elect_travaux_hors_tension_consignation:
+
+    Theme: 'ELECTRICITE : TRAVAUX HORS TENSION - CONSIGNATION'
+
+    0: 'Rôle du chargé de consignation'
+
+    1: 'Respect fiche de manœuvre'
+
+    2: 'Port des vêtements image de marque'
+
+    3: 'Vérification des outils TST'
+
+    4: 'Vérification du contrôleur de tension avant et après la VAT'
+
+    5: 'Respect des 5 opérations de la consignation'
+
+  vps_chantier_elect_travaux_hors_tension_intervention:
+
+    Theme: 'ELECTRICITE : TRAVAUX HORS TENSION - INTERVENTION'
+
+    0: 'Prise en compte des distances minimales d’approches (DMA)'
+
+    1: 'Port des vêtements image de marque'
+
+  vps_chantier_chute_plein_pied:
+
+    Theme: 'CHUTE DE PLAIN PIED'
+
+    0: 'Eclairage'
+
+    1: 'Dégagement de l’espace de travail'
+
+    2: 'Port des chaussures de sécurité'
+
+    3: 'Déplacement sur le chantier'
+
+    4: 'Montée et descente des escaliers'
+
+    5: 'Analyse de l&#039;environnement'
+
+    6: 'Montée et descente du véhicule'
+
+  vps_chantier_circulation_deplacement:
+
+    Theme: 'CIRCULATION DE DEPLACEMENT'
+
+    0: 'Port de la ceinture à toutes les places équipées'
+
+    1: 'Stationnement des véhicules'
+
+    2: 'Balisage des véhicules'
+
+    3: 'Etat du véhicule'
+
+    4: 'Utilisation adéquate des GSM – PDA et GPS'
+
+    5: 'Respect des limitations de vitesse'
+
+    6: 'Adaptation de la vitesse à l’environnement'
+
+    7: 'Respect des distances avec le véhicule qui précède'
+
+    8: 'Rangement du véhicule'
+
+    9: 'Tour du véhicule avant de repartir'
+
+  vps_chantier_chutes_hauteur:
+
+    Theme: 'CHUTES DE HAUTEUR'
+
+    0: 'Utilisation de la corde de service'
+
+    1: 'Point d&#039;attache en haut'
+
+    2: 'Mise à disposition de la poignée descenceur'
+
+    3: 'Utilisation de l&#039;élévateur'
+
+    4: 'Autorisation d&#039;utilisation PEMP'
+
+    5: 'Etat du matériel'
+
+    6: 'Analyse préalable des risques pour le choix du mode d&#039;ascension'
+
+    7: 'Vérification intégrité du support'
+
+    8: 'Positionnement de l&#039;escabeau/échelle'
+
+    9: 'Stabilisation de l&#039;escabeau/échelle'
+
+    10: 'Longe de sécurité (stop chute)'
+
+  vps_chantier_effondrement_chute_objet:
+
+    Theme: 'EFFRONDREMENT DE CHUTE D&#039;OBJET'
+
+    0: 'Contrôle avant ouverture des capots'
+
+    1: 'Objets stockés en hauteur'
+
+    2: 'Aménagement du chantier en bord de fouille'
+
+    3: 'Prise en compte du risque pour les tiers'
+
+  vps_chantier_manutention_manuelle:
+
+    Theme: 'MANUTENTION MANUELLE'
+
+    0: 'Positionnement par rapport à la charge'
+
+  vps_chantier_manutention_mecanique:
+
+    Theme: 'MANUTENTION MECANIQUE'
+
+    0: 'Utilisation du matériel de levage contrôlé'
+
+    1: 'Utilisation d’élingue de levage contrôlée'
+
+    2: 'Autorisation d&#039;utilisation'
+
+  vps_chantier_machine_outils_appareils:
+
+    Theme: 'MACHINE OUTILS, APPAREILS'
+
+    0: 'Respect des modes opératoires et/ou consignes constructeurs'
+
+    1: 'Mise en œuvre PICOUP'
+
+    2: 'Mise en œuvre presse hydraulique'
+
+    3: 'Mise en œuvre d&#039;un Groupe Electrogène'
+
+    4: 'Outillage électrique, meuleuse, perforateur, disqueuse, perceuse'
+
+    5: 'Utilisation tronçonneuse et/ou débroussailleuse'
+
+  vps_chantier_produit:
+
+    Theme: 'PRODUIT DANGEREUX, UTILISATION ET DECHETS'
+
+    0: 'Connaissance des FLUX'
+
+    1: 'Formation ou information au risque amiante'
+
+    2: 'Connaissance et mise en œuvre des modes opératoires amiante'
+
+    3: 'Prise en compte du risque amiante dans la préparation'
+
+  vps_chantier_animaux_insectes:
+
+    Theme: 'ANIMAUX, INSECTES'
+
+    0: 'Prise en compte du risque morsure (chiens, serpents)'
+
+    1: 'Prise en compte du risque piqûres (hyménoptères)'
+
+  vps_chantier_facteurs_humains:
+
+    Theme: 'FACTEURS HUMAINS'
+
+    0: 'Etat général perçu lors de la visite (fatigue, stress, irritabilité, adaptation aux conditions climatiques)'
+
+    1: 'Geste routinier'
+
+    2: 'Prise en compte du risque violence et agression externe'
+
+    3: 'Prise en compte du risque violence et agression interne'
+
+    4: 'Sensibilité à l’environnement'
+
+  vps_chantier_condition_travail:
+
+    Theme: 'CONDITION DE TRAVAIL'
+
+    0: 'Port des EPI pour le bruit'
+
+    1: 'Travail par grand froid'
+
+    2: 'Travail par forte chaleur'
+
+  vps_chantier_qualite_environnement:
+
+    Theme: 'QUALITE/ENVIRONNEMENT'
+
+    0: 'Gestion des déchets'
+
+    1: 'Propreté du chantier ou du lieu de travail'
+
+    2: 'Relation avec le client'
+
+    3: 'Respect des délais'
+
+  vps_chantier_gaz_intervention_is:
+
+    Theme: 'GAZ : INTERVENTION EN IS'
+
+    0: 'Contrôle atmosphère'
+
+    1: 'Gestion du risque en zone ATEX'
+
+    2: 'Port de l&#039;équipement dédié à l&#039;IS'
+
+    3: 'Utilisation de l&#039;explosimètre, catharomètre'
+
+    4: 'Utilisation du masque à Gaz'
+
+  vps_chantier_gaz_intervention_technique:
+
+    Theme: 'GAZ : INTERVENTION TECHNIQUE CLIENTELE'
+
+    0: 'Pose du shunt'
+
+    1: 'Clé de maintien'
+
+    2: 'Clé dynamométrique'
+
+    3: 'Identification du robinet 13.2 ou OCI'
+
+    4: 'Respect de la note de gaz en vigueur'
+
+  vps_chantier_deroulement_chantier:
+
+    Theme: 'DEROULEMENT DU CHANTIER'
+
+    0: 'Prise en compte des aléas qui nécessitent un point d&#039;arrêt'
+
+  vps_chantier_relation_client:
+
+    Theme: 'RELATION CLIENT'
+
+    0: 'Je préviens le client de l’heure de mon arrivée en début de demi-journée'
+
+    1: 'Sur place, je me signale auprès du client, et aux riverains si besoin'
+
+    2: 'J’explique au client ce que je vais faire, et je lui donne une heure approximative de fin d&#039;intervention'
+
+    3: 'A la fin de mon intervention, je débriefe avec le client, je m’assure de sa satisfaction et je prends congés'
+
+  vps_chantier_visiteur:
+
+    Theme: 'VISITEUR'
+
+    0: 'Demande t-il qu&#039;on lui explique le chantier (deroulement, qui fait quoi, …)'
+
+    1: 'Favorise t-il un climat de confiance et de dialogue ?'
+
+    2: 'Utilise t-il des questions ouvertes pour s&#039;assurer que les opérateurs sont capables d’expliquer ce qu&#039;ils font ?'
+
+    3: 'Comment gère t-il les écarts significatifs observés sur les terrains ?'
+
+    4: 'Faut-il un debrief avec l&#039;équipe avant de quitter le chantier et comment ?'
+
+  vps_chantier_organisation:
+
+    Theme: 'ORGANISATION'
+
+    0: 'Autres observations'
+
+    1: 'Maitrise des risques'
+
+    2: 'Ordres et propreté du chantier'
+
+    3: 'Organisation de l&#039;équipe'
+
+    4: 'Préparation du travail'
+
+  vps_chantier_equipement_epi:
+
+    Theme: 'EQUIPEMENT/E.P.I'
+
+    0: 'Etat de l&#039;outillage  et des véhicules'
+
+    1: 'Signalisation Routière'
+
+    2: 'Tenues de travail/Image de marque'
+
+    3: 'Utilisation E.P.I contre les chutes'
+
+    4: 'Utilisation Protection Collectives'
+
+  vps_risque_routier_vehicule_ext:
+
+    Theme: 'EXTERIEUR'
+
+    0: 'Etat Carrosserie et equipements (dont rétroviseurs)'
+
+    1: 'Propreté extérieure (notamment vitres et pare brises)'
+
+  vps_risque_routier_vehicule_int:
+
+    Theme: 'INTERIEUR'
+
+    0: 'Rangement intérieur (charge, propreté, ...)'
+
+    1: 'Ceinture de Sécurité (fonctionnement enrouleur et attache)'
+
+  vps_risque_routier_vehicule_mecanique:
+
+    Theme: 'MECANIQUE'
+
+    0: 'Niveau d&#039;huile moteur et de freinage'
+
+    1: 'Fonctionnement du frein à main'
+
+    2: 'Liquide de refroidissement'
+
+    3: 'Essuie-glace (balais, niveau de liquide, fonctionnement, ...)'
+
+    4: 'Pneumatiques (état, pression, ...)'
+
+    5: 'Eclairage et signalisation (fonctionnement des clignotants, feux de stop, de position, de croisement, de route, de recul, anti-brouillard, boîte d&#039;ampoules de secours, fonctionnement du klaxon)'
+
+    6: 'Batterie (cosses, propreté, niveau, ...)'
+
+  vps_risque_routier_vehicule_autres_equipements:
+
+    Theme: 'AUTRES EQUIPEMENTS'
+
+    0: 'Signalisation de chantier (fonctionnement triflash, feux à éclats, gyrophare, présence gilet fluo)'
+
+    1: 'Présence trousse de secours et descenseur'
+
+    2: 'Extincteur (présence et révision annuelle)'
+
+    3: 'Protection outillage (présence grille, immobilisation des matériels)'
+
+    4: 'Contrôle technique'
+
+    5: 'Pochette &quot;Papiers véhicule&quot; (carte grise, assurance, vignette, constat accident, carnet fiches annomalies, ...)'
+
+  vps_risque_routier_vehicule_visiteur:
+
+    Theme: 'VISITEUR'
+
+    0: 'Demande t-il qu&#039;on lui explique le chantier (déroulement, qui fait quoi, …)'
+
+    1: 'Favorise t-il un climat de confiance et de dialogue ?'
+
+    2: 'Utilise t-il des questions ouvertes pour s&#039;assurer que les opérateurs sont capables d’expliquer ce qu&#039;ils font ?'
+
+    3: 'Comment gère t-il les écarts significatifs observés sur les terrains ?'
+
+    4: 'Faut-il un debrief avec l&#039;équipe avant de quitter le chantier et comment ?'
+
+  vps_risque_routier_conduite_prepa:
+
+    Theme: 'PREPARATION A LA CONDUITE'
+
+    0: 'Vérification de l&#039;absence d&#039;obstacle'
+
+    1: 'Vérification de l&#039;état du véhicule'
+
+    2: 'Installation au poste de conduite : fonctionnement des voyants, accessoires, réglage ceinture, appui tête, rétros, siège'
+
+    3: 'Etat physique du conducteur (temps de repos, médicament, préoccupations,...)'
+
+    4: 'Organisation : présence des documents (assurance, constat) du gilet utilisation du téléphone portable, GPS, choix de l’itinéraire'
+
+    5: 'Rangement du véhicule'
+
+  vps_risque_routier_conduite_conduite:
+
+    Theme: 'CONDUITE'
+
+    0: 'Position de conduite : tenue du volant (position des 2 mains à 9h15 recommandée) position des pieds'
+
+    1: 'Utilisation des rétroviseurs en roulant et à l’arrêt (contrôle des angles morts)'
+
+    2: 'Régime moteur approprié, freinage dégressif (éco conduite)'
+
+    3: 'Vitesse adaptée à l’environnement et au type de véhicule (route étroite, virage, croisement,...)'
+
+    4: 'Respect des distances de sécurité en roulant à l’avant (+2secondes), espace sur les côtés'
+
+    5: 'Respect des distances de sécurité à l’arrêt (avant et sur les cotés)'
+
+    6: 'Conduite anticipée, détection des indices, regard au loin, balayage du regard, évaluation des situations dangereuses'
+
+    7: 'Pied au dessus du frein à l’approche de situations dangereuses'
+
+    8: 'Respect de la réglementation'
+
+    9: 'Indication des intentions : clignotants, avertisseur sonore'
+
+    10: 'Pas de consultation de documents, PDA, GPS pendant la conduite'
+
+    11: 'Maitrise des trajectoires (virage, rond point), placement facilitant visibilité et manœuvre, position sur la chaussée'
+
+    12: 'Stationnement prêt à partir et prise en compte de l’environnement avant de quitter le stationnement (choix de l’emplacement de moindre risque)'
+
+    13: 'Prise en compte de l’environnement lors de manœuvres (allure modérée + détection d’obstacle)'
+
+  vps_tstbt_habilitation_operateur:
+
+    Theme: 'HABILITATION DES OPERATEURS UTE  C18-510'
+
+    0: 'Chaque opérateur est en possession d&#039;un titre d&#039;habilitation'
+
+    1: 'Le titre d&#039;habilitation indique les limites du champ d&#039;application de l&#039;habilitation'
+
+    2: 'Le chargé de travaux connaît les limites du champ d’application de l&#039;habilitation.'
+
+    3: 'L’habilitation est conforme au travail à réaliser.'
+
+    4: 'Contrôle annuel de connaissances'
+
+  vps_tstbt_prepa_travail:
+
+    Theme: 'La PREPARATION DU TRAVAIL (CET 3.1)'
+
+    0: 'Une préparation de niveau 1 est réalisée par le chargé de travaux'
+
+    1: 'Une préparation de niveau 2 a été réalisée en amont et communiquée au chargé de travaux'
+
+    2: 'Le processus opératoire est satisfaisant.'
+
+    3: 'Les éléments permettant d&#039;identifier l&#039;ouvrage sont en possession du chargé de travaux'
+
+    4: 'Les besoins en ressources sont définis et adaptés'
+
+    5: 'Le choix de la méthode de travail (contact ou distance) est adapté'
+
+    6: 'Les instructions de sécurité liées au réseau sont prises en compte dans la préparation'
+
+  vps_tstbt_ordre_travail:
+
+    Theme: 'L&#039;ORDRE DE TRAVAIL (CET 4.1)'
+
+    0: 'Le chargé de travaux dispose d’un ordre de travail.'
+
+    1: 'Le nom du chargé de travaux est inscrit.'
+
+    2: 'La méthode de travail &quot;Sous tension&quot; est précisée'
+
+    3: 'L’ordre de travail est daté et signé.'
+
+    4: 'Les conditions d&#039;accès à l’ouvrage sont précisées (ATST ou ITST avec indication de la référence)'
+
+  vps_tstbt_access_ouvrage:
+
+    Theme: 'L&#039;ACCES A L&#039;OUVRAGE (CET 4.1)'
+
+    0: 'Le chargé de travaux dispose de l’ITST.'
+
+    1: 'Les travaux entrent dans le champ d&#039;application de l&#039;ITST'
+
+    2: 'Le chargé d’exploitation est informé du début et de la fin des travaux (information directe, active ou passive)'
+
+    3: 'Les modalités d&#039;information du chargé d&#039;exploitation sont définies dans l&#039;ITST'
+
+    4: 'L’ATST est conforme à l’ordre de travail et les travaux à réaliser sont précisés'
+
+    5: 'Tous les paragraphes de l’ATST sont remplis et correctement renseignés'
+
+    6: 'La mise en vigueur est réalisée.'
+
+    7: 'La restitution de l’ATST est effectuée.'
+
+  vps_tstbt_ident_verif_ouvrage:
+
+    Theme: 'IDENTIFICATION ET VERIFICATION DE L&#039;OUVRAGE (CET 4.3)'
+
+    0: 'Le chargé de travaux identifie ou reconnaît l&#039;identification de l&#039;ouvrage sur lequel doit avoir lieu le travail.'
+
+    1: 'Les modalités d’identification d’un câble souterrain BT sous tension sont définies par l’employeur délégataire des accès et sont mises en oeuvre'
+
+    2: 'L’identification de l’ouvrage est réalisée à l’aide d’un appareil de type agréé.'
+
+    3: 'L’identification de l’ouvrage souterrain est certaine et matérialisée sur le lieu de travail de façon durable par un dispositif adapté'
+
+    4: 'Le chargé de travaux vérifie si l&#039;ouvrage concerné par le travail fait l&#039;objet d&#039;une instruction de sécurité (point douteux)'
+
+    5: 'Le chargé de travaux examine l&#039;état de l&#039;ouvrage, notamment si le travail risque de générer des contraintes mécaniques supplémentaires'
+
+    6: 'La vérification, lorsqu&#039;elle impose à l&#039;opérateur de s&#039;approcher à moins de 30 cm de l&#039;ouvrage, est prise en compte comme une phase de TST'
+
+    7: 'L&#039;état des conducteurs, connecteurs et manchons présents sur l&#039;ouvrage est contrôlé'
+
+    8: 'L&#039;interdiction d&#039;exercer des contraintes mécaniques sur les ouvrages aériens en conducteurs nus de faible section ou fragilisés est respectée'
+
+    9: 'L&#039;état apparent du câble et des accessoires est contrôlé (intégrité de la gaine, absence de traces d&#039;agression, rayon de courbure, …)'
+
+    10: 'La vérification pas à pas des coffrets, enveloppes de matériel, panneaux ou capots d&#039;appareil est réalisée'
+
+    11: 'La vérification de la nature de la matière isolante est réalisée, par ouverture de l&#039;orifice de remplissage, avant de procéder au démontage de l&#039;accessoire'
+
+  vps_tstbt_validation_prepa_process_operatoire:
+
+    Theme: 'VALIDATION DE LA PREPARATION ET DU PROCESSUS OPERATOIRE (CET 4.4)'
+
+    0: 'Le chargé de travaux a reçu toutes les informations nécessaires à l’exécution du travail à réaliser et des risques associés.'
+
+    1: 'Le chargé de travaux a pris connaissance des caractéristiques de l’ouvrage.'
+
+    2: 'Le chargé de travaux a pris connaissance de l’environnement du chantier.'
+
+    3: 'Le chargé de travaux a pris en compte les moyens dont il dispose.'
+
+    4: 'Le chargé de travaux élabore le processus opératoire'
+
+    5: 'Le chargé de travaux valide le processus opératoire rédigé lors de la préparation'
+
+    6: 'Si le chargé de travaux amende le processus opératoire, il enregistre les modifications'
+
+    7: 'Si la modification du processus opératoire remet en cause les conditions initiales d&#039;accès au réseau, le chargé de travaux fait valider le nouveau processus opératoire'
+
+  vps_tstbt_delimitation_travail_sous_tension:
+
+    Theme: 'DELIMITATION DES PHASES DE TRAVAIL SOUS TENSION (CET 4.5)'
+
+    0: 'Le conducteur neutre est pris en compte comme conducteur actif'
+
+    1: 'Chaque phase de TST débute et s&#039;achève sur un état stable, mécanique et électrique, de l&#039;ouvrage'
+
+  vps_tstbt_amenagement_chantier:
+
+    Theme: 'AMENAGEMENT DU CHANTIER (CET 4.6)'
+
+    0: 'Le chargé de travaux prend les dispositions nécessaires pour interdire l&#039;accès de la zone de travail aux tiers'
+
+    1: 'Le chargé de travaux prend les dispositions nécessaires pour éliminer les risques dus au voisinage renforcé des pièces nues sous tension non concernées par le travail'
+
+    2: 'Le chargé de travaux définit l&#039;emplacement des véhicules, moyens d&#039;ascension, outils et matériels'
+
+    3: 'Une nappe ou une bâche de propreté est mise en place.'
+
+    4: 'Si nécessaire un éclairage d’appoint est installé'
+
+    5: 'Les outils et matériels sont préparés.'
+
+  vps_tstbt_maintenance_outillage:
+
+    Theme: 'MAINTENANCE DE L&#039;OUTILLAGE (CET 2.2)'
+
+    0: 'Les outils et matériels TST sont correctement rangés.'
+
+    1: 'L’état des outils et matériels TST est en conformité avec les FT.'
+
+  vps_tstbt_verif_outillage_avant_travail:
+
+    Theme: 'VERIFICATION DE L&#039;OUTILLAGE AVANT LE TRAVAIL (CET 4.7)'
+
+    0: 'Chaque opérateur a vérifié le bon état de son outillage individuel'
+
+    1: 'Le chargé de travaux a vérifié le bon état de l’outillage collectif'
+
+    2: 'La vérification des parties isolantes et isolées des outils est effectuée'
+
+    3: 'La vérification des autres parties des outils est réalisée'
+
+    4: 'Les nappes et tapis isolants sont vérifiés'
+
+    5: 'Les protecteurs sont vérifiés'
+
+    6: 'Les outils n’ayant pas satisfait à la vérification visuelle sont retirés de la dotation TST et identifiés clairement'
+
+    7: 'Les outils TST déjà positionnés sur l’ouvrage avant le travail à réaliser sous tension sont vérifiés'
+
+  vps_tstbt_conduite_chantier:
+
+    Theme: 'CONDUITE DU CHANTIER (CET 4.8)'
+
+    0: 'Le chargé de travaux porte un signe distinctif (Spécifique Enedis)'
+
+    1: 'Le chargé de travaux réunit les opérateurs et leur expose le processus opératoire'
+
+    2: 'Le chargé de travaux s&#039;assure que chaque membre de son équipe a bien compris son rôle'
+
+    3: 'Le chargé de travaux met en œuvre le processus opératoire décrit sur le bon de préparation ou défini lors de la préparation réalisée sur place.'
+
+    4: 'Le chargé de travaux modifie le processus opératoire suite à une modification technique de réalisation.'
+
+    5: 'En cas de changement de chargé de travaux, le remplaçant informe les opérateurs et le chargé d&#039;exploitation'
+
+    6: 'A la fin des travaux, le chargé de travaux rassemble les membres de son équipe, vérifie la bonne exécution du travail'
+
+  vps_tstbt_limitations_conditions_atmo:
+
+    Theme: 'LIMITATIONS RELATIVES AUX CONDITIONS ATMOSPHERIQUES (CET 4.9)'
+
+    0: 'Le chargé de travaux respecte les limitations relatives aux conditions atmosphériques.'
+
+  vps_tstbt_interruption_reprise_travail:
+
+    Theme: 'INTERUPTION OU REPRISE DU TRAVAIL (CET 4.10)'
+
+    0: 'Le chargé de travaux prévient le chargé d’exploitation.'
+
+    1: 'Le chargé de travaux vérifie le maintien et les distances des pièces conductrices sous tension.'
+
+    2: 'Le chargé de travaux vérifie la fixation des dispositifs d’isolement et de shuntage.'
+
+    3: 'Le chargé de travaux protège l’ouvrage des eaux de ruissellement.'
+
+    4: 'Le chargé de travaux évacue du chantier les outils dont la présence n’est pas nécessaire.'
+
+    5: 'Le chargé de travaux analyse le chantier à reprendre au même titre qu&#039;un nouveau chantier'
+
+    6: 'Le chargé de travaux s&#039;assure que le processus opératoire initial est toujours adapté à la situation et en informe les membres de son équipe'
+
+    7: 'Le chargé de travaux s&#039;assure que les pièces conductrices nues sont toujours maintenues aux distances suffisantes'
+
+    8: 'Le chargé de travaux s&#039;assure que les dispositifs d&#039;isolement par habillage et les dispositifs de shuntage déjà en place sont toujours efficaces'
+
+  vps_tstbt_equipement_operateur:
+
+    Theme: 'EQUIPEMENT DE L&#039;OPERATEUR (CET 2.3 ET 4.11)'
+
+    0: 'Les gants isolants sont vérifiés avant utilisation (essai pneumatique pour les gants FT105 et vérification visuelle pour les gants composites)'
+
+    1: 'La date de mise service est inscrite sur les gants isolants'
+
+    2: 'La date du contrôle périodique est inscrite sur les gants isolants et est conforme aux exigences de leur FT (Composite : 3 mois, isolant : 1 an)'
+
+    3: 'Le gant isolant FT 105 recouvert du surgant cuir présente une partie apparente de 5 cm au moins'
+
+    4: 'Les vêtements mis à disposition par l’employeur sont portés'
+
+    5: 'Un casque antichoc, muni d’une jugulaire, est utilisé'
+
+    6: 'L’opérateur est équipé d&#039;un écran facial lors d’un travail TST'
+
+    7: 'Les chaussures de sécurité sont portées'
+
+  vps_tstbt_responsabilites_operateur_exec:
+
+    Theme: 'RESPONSABILITES DE L&#039;OPERATEUR EXECUTANT(4.11)'
+
+    0: 'Chaque exécutant applique les instructions reçues du chargé de travaux.'
+
+    1: 'Les outils et matériels sont utilisés conformément aux FT.'
+
+    2: 'Les outils et matériels sont utilisés en adéquation avec les gestes élémentaires à réaliser'
+
+  vps_tstbt_surveillance_coordination:
+
+    Theme: 'SURVEILLANCE ET COORDINATION (5.1) '
+
+    0: 'Le chargé de travaux assure une surveillance permanente lors des phases TST'
+
+    1: 'Le chargé de travaux assure la coordination des actions des opérateurs'
+
+    2: 'Le chargé de travaux désigne si nécessaire un opérateur habilité B2T pour le seconder dans la surveillance des travaux'
+
+    3: 'Le chargé de travaux exécute simultanément avec un autre opérateur une phase de TST, dans la même zone d&#039;évolution que l’opérateur'
+
+    4: 'Exceptionnellement, le chargé de travaux se substitue à un opérateur pour exécuter lui-même certaines phases de TST.'
+
+    5: 'Si le chargé de travaux exécute une phase de TST sur un ouvrage aérien en conducteurs nus, il désigne une personne habilitée au moins B1T sur le type d&#039;ouvrage concerné pour assurer la surveillance de ses mouvements'
+
+    6: 'Le déplacement de la plate-forme de travail de la PEMP est réalisé après accord du chargé de travaux et sous sa surveillance'
+
+    7: 'Avant d&#039;autoriser le déplacement de la plate-forme de la PEMP, le chargé de travaux s&#039;assure de l&#039;absence de personnel en contact avec l&#039;engin'
+
+    8: 'Lorsque le chargé de travaux se substitue à l&#039;opérateur, c&#039;est ce dernier qui assure la surveillance de l&#039;évolution de la plate-forme de travail'
+
+  vps_tstbt_gestion_risque_elec:
+
+    Theme: 'GESTION DU RISQUE D&#039;ELECTRISATION (CET 5.2)'
+
+    0: 'L&#039;opérateur détermine sa ZETST'
+
+    1: 'L&#039;opérateur tient compte de son positionnement par rapport à la DMA dans la définition de sa ZETST'
+
+    2: 'La plate-forme de travail de la PEMP est prise en compte dans la définition de la ZETST'
+
+    3: 'L&#039;opérateur identifie son potentiel de travail puis identifie les circuits d&#039;électrisation possibles'
+
+    4: 'L&#039;opérateur porte des gants isolants lors d’un travail TST au contact'
+
+    5: 'Absence de chevauchement entre la ZETST et la DMA : l&#039;opérateur maintient une distance d&#039;air d&#039;au moins 30 cm par rapport à son potentiel de travail'
+
+    6: 'Absence de chevauchement entre la ZETST et la DMA : l&#039;opérateur maintient une distance d&#039;air d&#039;au moins 30 cm par rapport aux potentiels autres que le potentiel de travail'
+
+    7: 'Chevauchement entre la ZETST et la DMA : l&#039;opérateur maintient une distance d&#039;air d&#039;au moins 30 cm par rapport à son potentiel de travail et se protège d&#039;un contact fortuit'
+
+    8: 'Chevauchement entre la ZETST et la DMA : l&#039;opérateur met en œuvre un élément de protection pour éliminer la zone de chevauchement par rapport aux potentiels autres que son potentiel de travail'
+
+    9: 'L&#039;opérateur utilise une perche isolante référencée en fiche technique BT'
+
+    10: 'Sans chevauchement entre la ZETST et la DMA : L&#039;opérateur garantit l&#039;absence de chevauchement entre sa ZETST et la DMA de son potentiel de travail'
+
+    11: 'Sans chevauchement entre la ZETST et la DMA : L&#039;opérateur garantit l&#039;absence de chevauchement entre sa ZETST et la DMA des potentiels autres que le potentiel de travail'
+
+    12: 'Chevauchement entre la ZETST et la DMA : l&#039;opérateur maintient une distance d&#039;air d&#039;au moins 30 cm par rapport à son potentiel de travail'
+
+    13: 'Chevauchement entre la ZETST et la DMA : l&#039;opérateur met en œuvre un élément de protection pour éliminer la zone de chevauchement par rapport aux potentiels autres que son potentiel de travail'
+
+    14: 'L&#039;opérateur maintient une distance d&#039;air au moins équivalente à sa ZETST par rapport à son potentiel de travail'
+
+    15: 'L&#039;opérateur s&#039;assure de l&#039;absence de chevauchement entre sa ZETST (qui inclu la plate-forme de travail) et la DMA des potentiels autres que le potentiel de travail'
+
+  vps_tstbt_gestion_risque_court_circuit:
+
+    Theme: 'GESTION DU RISQUE DE COURT CIRCUIT (CET 5.2)'
+
+    0: 'L&#039;opérateur identifie son potentiel de travail puis identifie les circuits de court-circuit possibles'
+
+    1: 'L’opérateur détermine puis insère un EP adapté dans chaque circuit de court-circuit identifié'
+
+    2: 'Avant de libérer un conducteur, l&#039;opérateur conduit sa réflexion jusqu&#039;à l&#039;état stable suivant'
+
+    3: 'L&#039;opérateur insère un EP si le conducteur peut matériellement entrer en contact avec une pièce à potentiel fixé différent, ou en cas de doute'
+
+    4: 'L&#039;opérateur s&#039;assure que l&#039;amplitude maximale de la pièce conductrice à déplacer est inférieure à la distance entre 2 potentiels fixés différents'
+
+    5: 'L&#039;opérateur insère un EP si l&#039;amplitude de la pièce risque de provoquer un court-circuit lors de son déplacement, ou en cas de doute'
+
+    6: 'Si l&#039;état de potentiel flottant de la pièce conductrice à déplacer n&#039;est pas garanti, elle est prise en compte comme étant à un potentiel différent du potentiel de travail (cf. risque de contact direct)'
+
+    7: 'Avant de connecter une partie d&#039;ouvrage à potentiel flottant, l&#039;opérateur s&#039;assure que cette partie d&#039;ouvrage ne sera pas à l&#039;origine d&#039;un court-circuit'
+
+    8: 'Avant de connecter 2 parties d&#039;ouvrage à potentiels fixés, l&#039;opérateur s’assure par mesurage du respect des exigences fixées par le chef d&#039;établissement'
+
+  vps_tstbt_connex_deconnex:
+
+    Theme: 'CONNEXION - DECONNEXION (CET 5.3)'
+
+    0: 'Le chargé de travaux s’est assuré de l’ordre de grandeur des courants à interrompre ou à établir.'
+
+    1: 'Les limites autorisées pour connecter et déconnecter un circuit sans interrupteur sont respectées.'
+
+    2: 'L&#039;ordre de connexion, déconnexion ou sectionnement est respecté'
+
+    3: 'Le brossage des conducteurs est effectué avant la connexion du circuit.'
+
+    4: 'Les extrémités des conducteurs à potentiel fixé ou à potentiel flottant non avéré laissées en attente sont isolées'
+
+    5: 'Les tensions et la position du neutre sont vérifiés.'
+
+    6: 'Les conditions liées à l’établissement d’une liaison entre 2 réseaux BT de 2 postes HTA/BT sont respectées (CGM)'
+
+  vps_tstbt_shun_deshun:
+
+    Theme: 'SHUNTAGE-DESHUNTAGE (CET 5.4)'
+
+    0: 'Les matériels de shuntage utilisés sont conformes aux FT et possèdent des caractéristiques suffisantes pour garantir le transit de courant pendant la durée du shuntage'
+
+    1: 'Le cas échéant, le dispositif de shuntage mis en place comprend une protection équivalente à celle de l’appareil de protection à shunter'
+
+    2: 'Avant de fermer le dispositif de shuntage, le chargé de travaux s&#039;assure que les pièces réunies par le dispositif sont au même potentiel et sont en phase'
+
+    3: 'Le chargé de travaux s’assure de la continuité du circuit shunté avant d’ouvrir le dispositif de shuntage'
+
+  vps_tstbt_deplacement_conducteur_aeriens:
+
+    Theme: 'DEPLACEMENT DE CONDUCTEURS ARIENS NUS (CET 6.1)'
+
+    0: 'Le chargé de travaux vérifie qu’aucun obstacle n’est de nature à gêner le déplacement des conducteurs.'
+
+    1: 'Le chargé de travaux limite les stationnements et les déplacements des personnes lors des déplacements des conducteurs.'
+
+    2: 'Le déplacement des conducteurs est réalisé lentement et sans à-coup.'
+
+    3: 'La fixation mécanique initiale n’est supprimée que lorsque le dispositif d’amarrage provisoire a repris la totalité des efforts.'
+
+    4: 'L’ordre chronologique des déplacements des conducteurs est cohérent avec la configuration du réseau.'
+
+    5: 'Lors de la mise hors tension électrique et mécanique d’un conducteur aérien nu, la mise hors tension électrique précède la mise hors tension mécanique.'
+
+    6: 'La fixation mécanique d’un conducteur au point le plus proche de son raccordement précède sa mise sous tension électrique.'
+
+    7: 'Lors de la dépose de l’ensemble des conducteurs, la dépose du premier est précédée de la mise hors tension de tous les conducteurs et de l’élimination de toute possibilité d’alimentation par une autre source ou par retour de courant au travers de l’installation d&#039;un client'
+
+  vps_tstbt_travail_sur_support_mixte:
+
+    Theme: 'TRAVAIL SUR SUPPORT MIXTE BT ET HTA (CET 6.2)'
+
+    0: 'Le chargé de travaux  vérifie que la partie HTA ne comporte ni isolateur en mauvais état apparent, ni éclateur visiblement pollué ou recouvert par un corps étranger, ni parafoudre dont le conducteur de mise à la terre est déconnecté.'
+
+    1: 'Le chargé de travaux  vérifie le bon état apparent du ou des câbles isolés HTA et des éclateurs ou parafoudres éventuellement situés à leurs extrémités.'
+
+    2: 'L’opérateur respecte la DMA HTA par rapport aux conducteurs et pièces nues HTA.'
+
+    3: 'Le cas échéant, le chargé de travaux doit être en possession d&#039;une autorisation d&#039;accès à la zone de voisinage renforcé HTA (zone 2)'
+
+  vps_tstbt_travail_sur_canalisation_sout:
+
+    Theme: 'TRAVAIL SUR CANALISATION SOUTERRAINE (CET 6.3)'
+
+    0: 'Les dimensions de la fouille sont cohérentes avec la nature des travaux à réaliser.'
+
+    1: 'L&#039;habillage de la fouille couvre a minima la ZETST de l&#039;opérateur'
+
+    2: 'L&#039;habillage de la fouille est réalisé avec du matériel référencé en fiches techniques'
+
+    3: 'A tout moment, un seul potentiel est accessible à l&#039;opérateur'
+
+    4: 'L&#039;opérateur utilise des outils isolants ou isolés référencés en fiches techniques'
+
+    5: 'L’accessoire est réalisé conformément à la notice du constructeur'
+
+    6: 'L&#039;opérateur possède une qualification à jour'
+
+  vps_tstbt_travail_sur_enveloppe_mat_elec:
+
+    Theme: 'TRAVAIL SUR ENVELOPPE DE MATERIEL ELECTRIQUE (CET 6.4)'
+
+    0: 'La vérification de l&#039;état apparent de l&#039;enveloppe est réalisée. Les conditions qui autorisent son ouverture sont respectées.'
+
+    1: 'L&#039;opérateur s&#039;assure du bon état apparent de l&#039;appareil.'
+
+    2: 'Avant de démonter un panneau, une paroi ou le capot d’un appareil donnant accès à des pièces sous tension, l’opérateur s&#039;assure qu&#039;aucun objet ne risque, par sa chute éventuelle, de provoquer un court-circuit.'
+
+    3: 'Dès l&#039;ouverture du capot, l’opérateur s’assure que la disposition et le bon état du matériel permettent le travail sous tension.'
+
+    4: 'L&#039;opérateur s&#039;assure, avant de libérer de sa fixation un appareil ou un élément d’appareil, que les efforts occasionnés sur les conducteurs et les bornes de raccordement ne risquent pas de provoquer un court-circuit.'
+
+  vps_tstbt_travail_sur_circuit_terminal_branchement:
+
+    Theme: 'TRAVAIL SUR CIRCUIT TERMINAL DE BRANCHEMENT (CET 6.5)'
+
+    0: 'L&#039;opérateur respecte le processus opératoire relatif au remplacement d&#039;un appareil lorsque le conducteur neutre n&#039;est pas interruptible'
+
+  vps_tstbt_travail_sur_batterie_accum:
+
+    Theme: 'TRAVAIL SUR BATTERIE D&#039;ACCUMULATEUR(CET 6.6)'
+
+    0: 'La batterie d’accumulateurs possède au moins l&#039;une des caractéristiques suivantes : Tension &gt; à 48V ou Capacité &gt; à 10 Ah'
+
+    1: 'L&#039;opérateur s&#039;assure de la ventilation du local'
+
+    2: 'L&#039;opérateur limite les frottements et les frictions des outils sur la batterie d’accumulateurs. Il évacue régulièrement sa charge électrostatique.'
+
+    3: 'L’opérateur s’assure que les nappes isolantes posées ne créent pas une atmosphère confinée susceptible d’entraîner un risque d’explosion.'
+
+    4: 'La déconnexion ou la connexion d’un accumulateur ou d’une batterie est réalisée en circuit ouvert, soit par l’ouverture de l’organe de coupure existant soit par l’ouverture d’un organe de coupure à intégrer préalablement dans le circuit de liaison.'
+
+    5: 'La déconnexion ou la connexion d’un câble de liaison est réalisée soit par ouverture de l’organe de coupure existant soit en shuntant préalablement le câble de liaison.'
+
+  vps_tstbt_travaux_hauteur:
+
+    Theme: 'TRAVAUX EN HAUTEUR'
+
+    0: 'La jugulaire du casque antichoc est mise en place.'
+
+    1: 'Le harnais est porté.'
+
+    2: 'Une cravate EPI est mise en place.'
+
+    3: 'L’opérateur est assujetti.'
+
+    4: 'La ligne de vie est installée et utilisée.'
+
+    5: 'La corde de service est installée et utilisée.'
+
+    6: 'L’échelle est mise en place (Pose, calage, fixation , maintien lors d&#039;ascension, haubanage).'
+
+  vps_tstbt_pemp:
+
+    Theme: 'PEMP'
+
+    0: 'Les utilisateurs possèdent une autorisation d’utilisation de la PEMP et le CACES.'
+
+    1: 'La PEMP est stabilisée.'
+
+    2: 'Le calage des roues est effectué.'
+
+    3: 'Les sécurités de l’engin sont conformes (ex : rotation tourelle S13)'
+
+    4: 'L’approvisionnement du matériel est réalisé à l’aide de la corde de service (corde de service simple, non fixée, manœuvrée depuis la nacelle et lovée dans celle-ci après usage).'
+
+    5: 'Le chargé de travaux surveille les mouvements de la PEMP.'
+
+    6: 'La PEMP est utilisée pour déplacer une charge.'
+
+    7: 'Les efforts faits sur la nacelle sont maîtrisés (obstacle, branche d’arbre, point d’accrochage).'
+
+  vps_tstbt_groupe_electrogene:
+
+    Theme: 'GROUPE ELECTROGENE'
+
+    0: 'Les utilisateurs possèdent une autorisation d’utilisation du GE.'
+
+    1: 'Le Groupe Electrogène est muni des documents réglementaires associés (Notice constructeur, consigne d’utilisation, autorisation si P &gt; 10 kW).'
+
+    2: 'Le balisage du GE est effectué.'
+
+    3: 'Le châssis est mis à la terre'
+
+    4: 'Le repérage des câbles est effectué.'
+
+    5: 'Dans le cas de liaison en câbles multiples, le raccordement ou déraccordement est réalisé potentiel par potentiel'
+
+    6: 'Le raccordement du GE sous tension est réalisé à l’aide de connectique référencée en fiches techniques'
+
+  vps_tstbt_manoeuvres_mesurables_verif:
+
+    Theme: 'MANŒUVRES, MESURAGES ET VERIFICATIONS'
+
+    0: 'L’opérateur porte l’écran facial.'
+
+    1: 'L’opérateur porte des gants isolants.'
+
+    2: 'Le tapis isolant est utilisé.'
+
+    3: 'L’appareil de mesure est conforme d’utilisation.'
+
+    4: 'L’appareil de mesure est vérifié.'
+
+    5: 'Le contrôle de l&#039;ouverture de l’appareil est réalisé.'
+
+    6: 'La position du conducteur neutre est vérifiée.'
+
+  vps_tstbt_travaux_hors_tension:
+
+    Theme: 'TRAVAUX HORS TENSION'
+
+    0: 'Le chargé de travaux est désigné chargé consignation pour son propre compte.'
+
+    1: 'Le chargé de travaux possède une I.P.S ou une consigne.'
+
+    2: 'Le chargé de travaux possède une Attestation de Consignation.'
+
+    3: 'La zone de consignation est définie.'
+
+    4: 'La condamnation des appareils est effectuée.'
+
+    5: 'La V.A.T est réalisée.'
+
+    6: 'Le dispositif de mise en court-circuit (et à la terre) est installé.'
+
+  vps_tstbt_risques_generaux:
+
+    Theme: 'RISQUES GENERAUX'
+
+    0: 'Le balisage effectué protège efficacement les opérateurs.'
+
+    1: 'Le balisage permet d’interdire l’accès du chantier aux tiers.'
+
+    2: 'Les opérateurs portent un vêtement de signalisation de classe 2.'
+
+    3: 'Le chargé de travaux dispose d&#039;un arrêté pour réduction des voies de circulation.'
+
+    4: 'Les gants de manutention sont utilisés.'
+
+    5: 'Une protection oculaire est portée lors des travaux particuliers (utilisation d&#039;une masse, …)'
+
+    6: 'Les risques liés à la manutention sont gérés et maîtrisés.'
+
+    7: 'Les risques de plain-pied sont gérés et maîtrisés.'
+
+  vps_tstbt_documents:
+
+    Theme: 'DOCUMENT'
+
+    0: 'IPS et Consignes'
+
+    1: 'ITST'
+
+    2: 'CPP'
+
+    3: 'CET'
+
+    4: 'FT'
+
+    5: 'Consigne d&#039;utilisation'
+
+    6: 'Type d&#039;huile'
+
+    7: 'Notice d&#039;instructions'
+
+    8: 'Contrôle périodique (Organisme extérieur)'
+
+    9: 'CACES et autorisation d&#039;utilisation'
+
+    10: 'Recyclage'
+
+  vps_tstbt_formation:
+
+    Theme: 'FORMATION'
+
+    0: 'Module suivi en adéquation avec le travail à réaliser. Nom du centre de formation en observation'
+
+    1: 'Périodicité en adéquation avec la pratique de l&#039;opérateur. Nom du centre de formation en observation'
+
+  vps_tsthta_titre_habilitation:
+
+    Theme: 'PREPARATION DU TRAVAIL LE TITRE D’HABILITATION'
+
+    0: 'Définition de la partie d&#039;ouvrage concernée par le travail'
+
+    1: 'Définition des dispositions d&#039;application du RSE'
+
+    2: 'Prise en compte des matériels de réseau risquant de remettre en cause les dispositions d&#039;application du RSE'
+
+    3: 'Indications relatives aux fermetures et ouvertures de circuits à vide'
+
+    4: 'Indications relatives aux fermetures et ouvertures de circuits en charge'
+
+    5: 'Indications relatives aux fermetures et ouvertures d&#039;une boucle entre deux départs'
+
+    6: 'Transcription des indications sur un bon de préparation'
+
+    7: 'Validation de la préparation'
+
+  vps_tsthta_charge_prepa_tst:
+
+    Theme: 'PREPARATION DU TRAVAIL Le chargé de préparation TST'
+
+    0: 'Recueil des données électriques'
+
+    1: 'Recueil des données mécaniques'
+
+    2: 'Examen des possibilités d&#039;accès et de stationnement'
+
+    3: 'Elaboration de la chronologie du chantier'
+
+    4: 'Définition des responsables concernés par la chronologie du chantier'
+
+    5: 'Elaboration des calculs électriques'
+
+    6: 'Elaboration des calculs mécaniques'
+
+    7: 'Rédaction d&#039;un processus opératoire TST'
+
+    8: 'Transcription des indications sur un bon de préparation'
+
+    9: 'Validation de la préparation'
+
+  vps_tsthta_orga_travail_charge_exploit:
+
+    Theme: 'ORGANISATION DU TRAVAIL Le chargé d&#039;exploitation'
+
+    0: 'Délivrance de l&#039;ATST au chargé de travaux'
+
+    1: '1 A.T.S.T. par OF ponts (tx tiers)'
+
+    2: 'Chaque paragraphe est rempli en cohérence avec le Bon de Travail'
+
+    3: 'Information au chargé de travaux des écarts entre l&#039;ATST et le document de préparation'
+
+    4: 'Dispositions pour assurer les conditions du RSE'
+
+  vps_tsthta_orga_travail_liaisons:
+
+    Theme: 'ORGANISATION DU TRAVAIL Liaisons entre le chargé d&#039;exploitation et le chargé de travaux'
+
+    0: 'Liaison radio ou téléphonique'
+
+    1: 'Respect du schéma d&#039;exploitation de la part du chargé de travaux'
+
+    2: 'Remise sous tension'
+
+    3: 'Interruption des travaux'
+
+    4: 'Fin des travaux'
+
+  vps_tsthta_orga_travail_charge_travaux:
+
+    Theme: 'ORGANISATION DU TRAVAIL Le chargé de travaux'
+
+    0: 'CT identifiable, signe distinctif'
+
+    1: 'Possession d&#039;un ordre de travail daté et signé'
+
+    2: 'CET, FT et FS à jour'
+
+    3: 'Désignation du Chargé de travaux'
+
+    4: 'Nombre d’agents a minima'
+
+    5: 'Possession d&#039;une ATST'
+
+    6: 'Communication au CEX et à l&#039;employeur suite aux difficultés rencontrées'
+
+    7: 'Communication au CEX en cas d&#039;incident'
+
+    8: 'Validation du processus opératoire défini en préparation'
+
+    9: 'Adaptation du processus opératoire défini en préparation'
+
+    10: 'Communication des informations aux opérateurs avant de débuter le travail'
+
+    11: 'Direction du chantier vis-à-vis des opérateurs'
+
+    12: 'Direction du chantier pour les travaux au sol'
+
+    13: 'Surveillance des opérateurs'
+
+    14: 'Surveillance exclusive des opérateurs pour certaines opérations'
+
+    15: 'Vérification des instructions auprès des opérateurs'
+
+    16: 'Mise en oeuvre des mesures lors des modifications d&#039;instructions'
+
+    17: 'Changement de chargé de travaux'
+
+    18: 'Travail non préparé à l&#039;avance'
+
+  vps_tsthta_orga_travail_operateurs:
+
+    Theme: 'ORGANISATION DU TRAVAIL Les opérateurs'
+
+    0: 'Application des instructions reçues'
+
+    1: 'Mise en œuvre et enchaînement des gestes élémentaires'
+
+    2: 'Utilisation des outils et matériels'
+
+    3: 'Communication avec les autres opérateurs'
+
+    4: 'Information au chargé de travaux de tout dysfonctionnement'
+
+  vps_tsthta_orga_travail_verif_outils_tst:
+
+    Theme: 'ORGANISATION DU TRAVAIL Vérification des outils TST avant le travail'
+
+    0: 'Rangement de l’outillage'
+
+    1: 'Disponibilité de l’outillage ad hoc'
+
+    2: 'Outillage couleur contrôle année 2012 (vert) - 2013 (Blanc)'
+
+    3: 'Gants longs isolants datés'
+
+    4: 'Vérification de l&#039;outillage collectif et de l&#039;équipement de protection individuelle'
+
+    5: 'Vérification des parties isolantes'
+
+    6: 'Vérification des parties mécaniques'
+
+    7: 'Vérification des liaisons électriques'
+
+    8: 'Sanction de la vérification'
+
+  vps_tsthta_orga_travail_verif_avant_amenagement_chantier:
+
+    Theme: 'ORGANISATION DU TRAVAIL Vérification avant le travail et aménagement du chantier'
+
+    0: 'Port vêtements fournis par l&#039;Employeur'
+
+    1: 'Identification et vérification de l&#039;ouvrage'
+
+    2: 'Possession de l’arrêté pour réduction des voies de circulation'
+
+    3: 'Adéquation des éléments constatés avec les informations collectées sur le bon de préparation'
+
+    4: 'Limitation et facilitation de la circulation ainsi que du stationnement des opérateurs'
+
+    5: 'Réduction des distances de transport du matériel'
+
+    6: 'Positionnement du CT pour la surveillance et la direction du chantier'
+
+    7: 'alisage efficace'
+
+    8: 'Port gilets classe 2'
+
+    9: 'Port vêtement image de marque'
+
+    10: 'Port des EPI'
+
+    11: 'Emplacement des outils et matériels'
+
+    12: 'Utilisation de la bâche'
+
+    13: 'Utilisation des râteliers'
+
+    14: 'Positionnement des véhicules'
+
+    15: 'Positionnement des Echelles (sangles attachées)'
+
+    16: 'Positionnement de la PEMP'
+
+    17: 'Stabilisation de la PEMP'
+
+    18: 'Calage des roues de la PEMP'
+
+    19: 'Utilisation de la corde de service'
+
+    20: 'Triangulation de la corde de service'
+
+    21: 'Validation du chargé de travaux de l&#039;utilisation et du positionnement des échelles à éléments emboîtables'
+
+    22: 'Validation du chargé de travaux du positionnement et de la stabilité de la PEMP'
+
+  vps_tsthta_orga_travail_conditions_atmo_visib_chantier:
+
+    Theme: 'ORGANISATION DU TRAVAIL Conditions atmosphériques et visibilité sur le chantier'
+
+    0: 'Précipitations atmosphériques peu importantes'
+
+    1: 'Précipitations atmosphériques importantes'
+
+    2: 'Brouillard épais'
+
+    3: 'Vent violent'
+
+    4: 'Orage'
+
+    5: 'Visibilité sur le chantier'
+
+  vps_tsthta_orga_travail_interruption_reprise_travail:
+
+    Theme: 'ORGANISATION DU TRAVAIL interruption - reprise du travail'
+
+    0: 'Interruption du travail avec un temps disponible court'
+
+    1: 'Interruption du travail avec un temps disponible long'
+
+    2: 'Interruption due à un incident'
+
+    3: 'Reprise du travail'
+
+  vps_tsthta_deroulement_travail_travaux_hauteur:
+
+    Theme: 'DEROULEMENT DU TRAVAIL Les travaux en hauteur'
+
+    0: 'Port du harnais'
+
+    1: 'Utilisation de cravate EPI'
+
+    2: 'Assujettissement /Ligne de vie'
+
+    3: 'Transfert de l&#039;opérateur suivant GTE 152'
+
+  vps_tsthta_deroulement_travail_pemp:
+
+    Theme: 'DEROULEMENT DU TRAVAIL La PEMP'
+
+    0: 'Prise en compte recommandations de la DGSC EVI (ex PNAG)'
+
+    1: 'Distance de garde 10 cm Bras PEMP / support ou masse'
+
+    2: 'Mise en place des bâches sur le bras isolant'
+
+    3: 'Dépose des flexibles durant le transport'
+
+    4: 'Configuration EGIE avec mât  charge Dépassement axe nacelle / axe tourelle'
+
+    5: 'EGIE : utilisation de flexibles isolants conformes à la FT'
+
+    6: 'Calculs des mâts de charge'
+
+    7: 'PFE vérification courant fuite'
+
+    8: 'Utilisation de la PEMP (ex : travail pendant un déplacement)'
+
+  vps_tsthta_deroulement_travail_exec_travail:
+
+    Theme: 'DEROULEMENT DU TRAVAIL Exécution du travail'
+
+    0: 'Vérification des EP'
+
+    1: 'Respect EP circuit électrisation (1 non respect = 1 dérive)'
+
+    2: 'Respect EP court-circuit (1 non respect = 1 dérive)'
+
+    3: 'Vérification des circuits d&#039;électrisation'
+
+    4: 'Mise en œuvre séparément des trois méthodes'
+
+    5: 'Utilisation de l’outillage ad hoc'
+
+    6: 'Conditions d&#039;utilisation des nappes isolantes'
+
+    7: 'Conditions d&#039;utilisation des protecteurs'
+
+    8: 'Autorisation du chargé de travaux du déplacement de la PEMP'
+
+    9: 'Surveillance du chargé de travaux lors du déplacement de la PEMP'
+
+    10: 'Vérification des EP par les opérateurs lors du déplacement de la PEMP'
+
+    11: 'Surveillance de la part des opérateurs lors du déplacement de la PEMP'
+
+    12: 'Utilisation de la corde de service à partir de la PEMP'
+
+    13: 'Mise en place finale de la PEMP conformément à celle prévue'
+
+    14: 'Autorisation du chargé de travaux du déplacement de l&#039;engin de levage'
+
+    15: 'Surveillance du chargé de travaux lors du déplacement de l&#039;engin de levage'
+
+    16: 'Vérification des EP lors du déplacement de l&#039;engin de levage'
+
+    17: 'Prise en compte du balancement de la charge pour éviter tout contact avec un protecteur ou un écran'
+
+    18: 'Prise en compte de l&#039;influence du déplacement d&#039;un conducteur'
+
+    19: 'Etat de l&#039;ouvrage à la fin du travail'
+
+  vps_tsthta_deroulement_ouverture_fermeture_circuits:
+
+    Theme: 'DEROULEMENT DU TRAVAIL Ouverture - fermeture de circuits'
+
+    0: 'Cohérence entre les informations du document de préparation et l&#039;ATST'
+
+    1: 'L&#039;ouverture ou la fermeture de circuits est réalisée sur ordre explicite du CT, suivant la méthode Distance et en rapprochant ou séparant rapidement les contacts'
+
+    2: 'Ouverture simultanée des trois phases avec les DMC'
+
+    3: 'Dépose des ponts après ouverture du circuit'
+
+    4: 'Respect des distances assurant une séparation certaine'
+
+    5: 'Vérification anciens connecteurs'
+
+    6: 'Brossage'
+
+    7: 'Confection des ponts'
+
+    8: 'Maintien des ponts lors de la dépose'
+
+    9: 'Respect des E.P. du shunt'
+
+    10: 'Contact du shunt avec potentiel différent'
+
+    11: 'Maintien des shunts &gt; 6 mètres'
+
+  vps_tsthta_deroulement_ouverture_fermeture_boucles:
+
+    Theme: 'DEROULEMENT DU TRAVAIL Ouverture - fermeture de boucles'
+
+    0: 'Ouverture réalisée à Distance avec les DMC'
+
+    1: 'Ouverture ou fermeture d&#039;une boucle qui modifie le schéma d&#039;exploitation réalisée par la méthode Distance'
+
+    2: 'Pose ou dépose du dispositif de shuntage par la méthode Distance sur un point douteux, un Interrupteur Aérien ou un pont'
+
+    3: 'Contrôles et vérifications électriques avant intervention au potentiel ou au contact sur la partie d&#039;ouvrage'
+
+    4: 'Dépose et contrôle du dispositif de shuntage'
+
+    5: 'Contrôles et vérifications électriques avant dépose au potentiel ou au contact du dispositif de shuntage'
+
+    6: 'Contrôle de la partie shuntée'
+
+    7: 'Reprise de la partie shuntée'
+
+    8: 'Dépose du dispositif de shuntage à distance'
+
+    9: 'Utilisation d&#039;un appareil de type agréé'
+
+  vps_tsthta_deroulement_travail_contraintes_meca:
+
+    Theme: 'DEROULEMENT DU TRAVAIL Contraintes mécaniques'
+
+    0: 'Examen visuel des armements, des conducteurs et des isolateurs'
+
+    1: 'Pose du mesureur de tension mécanique'
+
+    2: 'Confirmation des résultats des calculs mécaniques'
+
+    3: 'Finalisation du processus opératoire défini sur le document de préparation'
+
+    4: 'Intervention sur un point douteux après un examen du conducteur réalisé du sol ou à distance'
+
+    5: 'Intervention sur un point douteux après un examen du conducteur réalisé au potentiel ou au contact'
+
+    6: 'Contrôle des isolateurs et des ponts sur les supports adjacents lors d&#039;un déplacement'
+
+    7: 'Interventions sur les isolateurs rigides'
+
+    8: 'Reprise mécanique d&#039;un conducteur lors de la réparation d&#039;un point douteux'
+
+    9: 'Pose du DRM avant la suppression d&#039;un point douteux'
+
+  vps_tsthta_deroulement_travail_montee_potentiel:
+
+    Theme: 'DEROULEMENT DU TRAVAIL Montée en potentiel'
+
+    0: 'Utilisation des échelles à éléments emboîtables'
+
+    1: 'Utilisation des moyens de positionnement'
+
+    2: 'Réalisation d&#039;une liaison équipotentielle des pièces conductrices'
+
+    3: 'Respect des EP entre la zone d&#039;évolution de l&#039;opérateur et les pièces non reliées par liaison équipotentielle'
+
+    4: 'Travail à partir d&#039;une PEMP à bras métallique'
+
+    5: 'Travail à partir d&#039;une PEMP à bras isolant'
+
+    6: 'Travail sur support mixte'
+
+    7: 'Positionnement des opérateurs au sol'
+
+  vps_tsthta_travaux_particuliers:
+
+    Theme: 'TRAVAUX PARTICULIERS Travaux après mise à potentiel flottant'
+
+    0: 'Respect des conditions préalables'
+
+    1: 'Travaux sur le support siège ou sur le support adjacent de la partie d&#039;ouvrage au potentiel terre'
+
+    2: 'Informations collectées sur l&#039;ordre de travail'
+
+    3: 'Informations collectées sur l&#039;ATST'
+
+    4: 'Conditions de mise en œuvre du potentiel terre'
+
+    5: 'Travaux sur un sectionneur, interrupteur, disjoncteur et parafoudres'
+
+    6: 'Travaux sur un transformateur sur poteau sans ré-alimentation de la BT'
+
+    7: 'Travaux sur un transformateur sur poteau avec ré-alimentation de la BT'
+
+    8: 'Travaux sur une partie extérieure d&#039;un poste en maçonnerie'
+
+    9: 'Travaux sur un transformateur de tension'
+
+    10: 'Coordination des travaux'
+
+  vps_tsthta_iacm:
+
+    Theme: 'IACM'
+
+    0: 'Protection mécanique des shunts'
+
+    1: 'Ponts avec cosses à friction (MO)'
+
+    2: 'Protection (E.P.)'
+
+    3: 'Manœuvres sur IACM défectueux (protection des opérateurs)'
+
+  vps_tsthta_manoeuvre_appareil:
+
+    Theme: 'MANŒUVRE D&#039;APPAREIL'
+
+    0: 'Gants isolants (utilisation, essai)'
+
+    1: 'Tapis isolant'
+
+    2: 'Lunettes'
+
+    3: 'Casque'
+
+    4: 'Contrôle de l&#039;ouverture'
+
+  vps_tsthta_tstbt:
+
+    Theme: 'TST BT'
+
+    0: 'Travail sous ATST'
+
+    1: 'Respect des conditions d’accès'
+
+    2: 'Port vêtements IM (2 épaisseurs)'
+
+    3: 'Port protections individuelles'
+
+    4: 'Vérification des gants isolants (marquage et essais)'
+
+    5: 'Respect des CET BT'
+
+    6: 'Utilisation outils adéquates'
+
+  vps_tsthta_risques_generaux:
+
+    Theme: 'RISQUES GENERAUX'
+
+    0: 'Port des gants de manutention'
+
+    1: 'Protection des yeux lors de travaux particuliers (utilisation d&#039;une masse, …)'
+
+    2: 'Risques liés à la manutention'
+
+    3: 'Risques  de plain-pied'
+
+  vps_tsthta_divers:
+
+    Theme: 'DIVERS'
+
+    0: 'Autres risques identifiés (Observations obligatoires)'
+
+  vps_tag_list:
+
+    meter_installing: 'Pose d&#039;un compteur Linky'
+
+    meter_change: 'Changement d’un compteur par un compteur Linky'
+
+    concentrator: 'Réalisation de travaux concentrateur'
+
+    concentrator_installing: 'Réalisation d’une pose concentrateur'
+
+  api_link: 'http://127.0.0.1:8000'
+
+  roles:
+
+    1: 'ROLE_USER'
+
+    2: 'ROLE_ADMIN_UNITE'
+
+    3: 'ROLE_DEV'
+
+    4: 'ROLE_ROADMIN_UNITE'
+
+    5: 'ROLE_ADMIN_REGION'
+
+    6: 'ROLE_ROADMIN_REGION'
+
+    7: 'ROLE_ADMIN_NATIONAL'
+
+    8: 'ROLE_ADMIN'
+
+    9: 'ROLE_MANAGER'
+
+    10: 'ROLE_AGENT'
+
+  libelles_list:
+
+    tstbt: 'TST BT'
+
+    tsthta: 'TST HTA'
+
+    skill_tstbt: 'TST BT'
+
+    skill_tsthta: 'TST HTA'
+
+    skill_consignation: 'Consignation'
+
+    work_aer: 'AER'
+
+    work_sou: 'SOU'
+
+    work_eme: 'EME'
+
+    work_ter: 'TER'
+
+    work_ps: 'PS'
+
+    work_cca: 'CCA'
+
+    work_bat: 'BAT'
+
+    consignation_adc: 'Avec délivrance ADC'
+
+    consignation_compte: 'Pour son compte'
+
+    function_using_ground: 'Aide au sol'
+
+    function_consignation: 'Chargé de Consignation'
+
+    function_preparator: 'Préparateur'
+
+    function_levageur: 'Levageur'
+
+    function_maneuver: 'Personnel de Manoeuvre'
+
+    function_operator: 'Opérateur'
+
+    function_works: 'Chargé de travaux'
+
+    voltage_bt: 'BT'
+
+    voltage_hta: 'HTA'
+
+    voltage_htb: 'HTB'
+
+    method_potential: 'Potentiel'
+
+    method_contact: 'Contact'
+
+    method_range: 'Distance'
+
+    yes: 'Oui'
+
+    no: 'Non'
+
+    n/a: 'Non évalué'
+
+    not_evaluated: 'Non évalué'
+
+    drift: 'Dérive'
+
+    positive: 'Positif'
